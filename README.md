@@ -2,8 +2,8 @@
 A song recommender using Spotify data based on two approaches - "Content-based recommendation" that uses TFIDF and cosine similarity and "Collaborative Filtering based recommendation" that uses KNN (K-nearest neighbors) classification model. For content based filtering, we find similarity based on song name, album, artist and release date, whereas for collaborative filtering, we consider numeric features like accousticness, popularity, danceability, etc.
 
 # Steps to Run:
-python3 -m pip install -r requirements.txt
-python3 app.py
+- python3 -m pip install -r requirements.txt
+- python3 app.py
 
 - Home Screen: <br>
 <img width="1435" alt="Screenshot 2023-09-29 at 11 45 33 AM" src="https://github.com/rashi-bhansali/Song-Recommender-cosine-similarity-and-KNN-/assets/52106856/31947f22-041a-4ced-ae7c-5b75fa741a66"><br>
