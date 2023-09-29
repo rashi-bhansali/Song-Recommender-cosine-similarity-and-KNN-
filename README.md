@@ -1,4 +1,5 @@
 # Song-Recommender-cosine-similarity-and-KNN-
+[Colab Notebook](https://colab.research.google.com/drive/1vbPJnJIXYUzoC8RfQ8QfvSbg5S6v7nKS#scrollTo=ppWlDR9njTb5)
 A song recommender using Spotify data based on two approaches - "Content-based recommendation" that uses TFIDF and cosine similarity and "Collaborative Filtering based recommendation" that uses KNN (K-nearest neighbors) classification model. For content based filtering, we find similarity based on song name, album, artist and release date, whereas for collaborative filtering, we consider numeric features like accousticness, popularity, danceability, etc.
 
 # Steps to Run:
