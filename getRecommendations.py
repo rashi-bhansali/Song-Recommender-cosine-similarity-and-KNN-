@@ -10,7 +10,6 @@ def getRecommendation(new_df, record):
     data = pd.DataFrame(columns=col)
     id = []
     for i in col:
-        yield "<br/>"
         tf = TFIDF(temp_df, i)
         cosine_sim = linear_kernel(tf, tf) 
         data[i] = cosine_sim[-1]
